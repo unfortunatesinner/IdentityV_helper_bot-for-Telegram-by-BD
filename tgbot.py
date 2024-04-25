@@ -63,7 +63,7 @@ def answer(update, context):
                               ' не является командой. Наберите /help, чтобы получить список команд')
 
 
-updater = Updater("7108975513:AAGgiKsUmgsRYq_RJs9liqj4CVhjV1Vvtk4")
+updater = Updater("токен")
 
 dp = updater.dispatcher
 dp.add_handler(CommandHandler('start', start))
